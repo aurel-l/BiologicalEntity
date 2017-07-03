@@ -13,7 +13,7 @@
     "identifier": "https://identifiers.org/uniprot:P00519",
     "sameAs": "http://purl.uniprot.org/uniprot/P00519",
     "taxon": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
-    "inMentionedIn": "http://www.uniprot.org/"
+    "isMentionedIn": "http://www.uniprot.org/"
   },
   "potentialAction": {
     "@type": "SearchAction",
