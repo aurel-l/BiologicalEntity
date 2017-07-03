@@ -3,7 +3,7 @@
   "@type": "WebPage",
   "name": "InterPro - SH3 domain",
   "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
-  "url": "http://www.ebi.ac.uk/interpro/entry/IPR001452",
+  "url": "https://www.ebi.ac.uk/interpro/entry/IPR001452",
   "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
   "mainEntity": {
     "@context": "http://schema.org",
@@ -21,7 +21,7 @@
         "name": "Helically-extended SH3 domain",
         "isMentionedIn": "https://www.ebi.ac.uk/interpro/search",
         "identifier": "https://identifiers.org/interpro:IPR029294",
-        "biologicalType": "domain"
+        "biologicalType": ["protein annotation", "domain"]
       },
       {
         "@type": "BiologicalEntity",
@@ -29,7 +29,7 @@
         "name": "Nephrocystin-1, SH3 domain",
         "isMentionedIn": "https://www.ebi.ac.uk/interpro/search",
         "identifier": "https://identifiers.org/interpro:IPR030642",
-        "biologicalType": "domain"
+        "biologicalType": ["protein annotation", "domain"]
       },
       {
         "@type": "BiologicalEntity",
@@ -37,7 +37,7 @@
         "name": "PSTPIP1, SH3 domain",
         "isMentionedIn": "https://www.ebi.ac.uk/interpro/search",
         "identifier": "https://identifiers.org/interpro:IPR030777",
-        "biologicalType": "domain"
+        "biologicalType": ["protein annotation", "domain"]
       }
     ],
     "citation": [
@@ -232,42 +232,42 @@
     "isBasedOn": [
       {
         "@type": ["BiologicalEntity", "DatasetEntry"],
-        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/Pfam",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/Pfam",
         "name": "SH3_9",
         "identifier": "https://identifiers.org/pfam:PF14604",
         "biologicalType": ["protein annotation", "domain"]
       },
       {
         "@type": ["BiologicalEntity", "DatasetEntry"],
-        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/SUPERFAMILY",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/SUPERFAMILY",
         "name": "SH3-domain superfamily",
         "identifier": "https://identifiers.org/superfamily:SSF50044",
         "biologicalType": ["protein annotation", "domain"]
       },
       {
         "@type": ["BiologicalEntity", "DatasetEntry"],
-        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/PROSITE-profiles",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/PROSITE-profiles",
         "name": "SH3",
         "identifier": "https://identifiers.org/prosite:PS50002",
         "biologicalType": ["protein annotation", "domain"]
       },
       {
         "@type": ["BiologicalEntity", "DatasetEntry"],
-        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/Pfam",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/Pfam",
         "name": "SH3_1",
         "identifier": "https://identifiers.org/pfam:PF00018",
         "biologicalType": ["protein annotation", "domain"]
       },
       {
         "@type": ["BiologicalEntity", "DatasetEntry"],
-        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/SMART",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/SMART",
         "name": "SH3",
         "identifier": "https://identifiers.org/smart:SM00326",
         "biologicalType": ["protein annotation", "domain"]
       },
       {
         "@type": ["BiologicalEntity", "DatasetEntry"],
-        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/PRINTS",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/PRINTS",
         "name": "SH3DOMAIN",
         "identifier": "https://identifiers.org/prints:PR00452",
         "biologicalType": ["protein annotation", "domain"]

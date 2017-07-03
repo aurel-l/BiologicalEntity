@@ -25,38 +25,38 @@
       "hasPart": [
         {
           "@type": ["BiologicalEntity", "DatasetEntry"],
-          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00001",
+          "@id": "https://www.ebi.ac.uk/interpro/signature/PF00001",
           "name": "7 transmembrane receptor (rhodopsin family)",
           "identifier": "https://identifiers.org/pfam:PF00001",
-          "biologicalType": "family"
+          "biologicalType": ["protein annotation", "family"]
         },
         {
           "@type": ["BiologicalEntity", "DatasetEntry"],
-          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00002",
+          "@id": "https://www.ebi.ac.uk/interpro/signature/PF00002",
           "name": "7 transmembrane receptor (Secretin family)",
           "identifier": "https://identifiers.org/pfam:PF00002",
-          "biologicalType": "family"
+          "biologicalType": ["protein annotation", "family"]
         },
         {
           "@type": ["BiologicalEntity", "DatasetEntry"],
-          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00003",
+          "@id": "https://www.ebi.ac.uk/interpro/signature/PF00003",
           "name": "7 transmembrane sweet-taste receptor of 3 GCPR",
           "identifier": "https://identifiers.org/pfam:PF00003",
-          "biologicalType": "family"
+          "biologicalType": ["protein annotation", "family"]
         },
         {
           "@type": ["BiologicalEntity", "DatasetEntry"],
-          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00018",
+          "@id": "https://www.ebi.ac.uk/interpro/signature/PF00018",
           "name": "SH3 domain",
           "identifier": "https://identifiers.org/pfam:PF00018",
-          "biologicalType": "family"
+          "biologicalType": ["protein annotation", "family"]
         },
         {
           "@type": ["BiologicalEntity", "DatasetEntry"],
-          "@id": "http://www.ebi.ac.uk/interpro/signature/PF14604",
+          "@id": "https://www.ebi.ac.uk/interpro/signature/PF14604",
           "name": "Variant SH3 domain",
           "identifier": "https://identifiers.org/pfam:PF14604",
-          "biologicalType": "family"
+          "biologicalType": ["protein annotation", "family"]
         }
       ]
     }
