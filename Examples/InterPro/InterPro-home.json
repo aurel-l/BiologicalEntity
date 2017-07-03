@@ -1,0 +1,30 @@
+{
+  "@context": "http://schema.org",
+  "@type": ["Organization", "DataRepository", "WebSite", "WebPage"],
+  "name": "InterPro",
+  "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
+  "url": "https://www.ebi.ac.uk/interpro/",
+  "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
+  "temporalCoverage": "R/2017-05-11/P1M",
+  "keywords": ["protein annotation", "family", "domain", "site"],
+  "provider": "https://www.ebi.ac.uk",
+  "publication": "1999",
+  "license": "public domain",
+  "sameAs": "https://twitter.com/interprodb",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "identifier": "https://identifiers.org/pubmed:27899635",
+    "name": "InterPro in 2017-beyond protein family and domain annotations."
+  },
+  "mainEntity": {
+    "@type": "Dataset",
+    "name": "InterPro 63.0",
+    "url": "https://www.ebi.ac.uk/interpro/search",
+    "datePublished": "2017-05-11"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}

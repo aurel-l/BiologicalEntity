@@ -1,0 +1,45 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "InterPro - SH3 domain - Proteins matched",
+  "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
+  "url": "https://www.ebi.ac.uk/interpro/entry/IPR001452/proteins-matched",
+  "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
+  "mainEntity": {
+    "@type": "BiologicalEntity",
+    "name": "SH3 domain",
+    "identifier": "https://identifiers.org/interpro:IPR001452",
+    "biologicalType": ["protein annotation", "domain"],
+    "isPartOf": [
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "biologicalType": "protein",
+        "name": "Mitogen-activated protein kinase kinase kinase mlk-1",
+        "identifier": "https://identifiers.org/uniprot:A0A0K3AV08",
+        "isMentionedIn": "http://www.uniprot.org/",
+        "bioCoordinates": {
+          "@type": "PropertyValue",
+          "minValue": 68,
+          "maxValue": 130
+        }
+      },
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "biologicalType": "protein",
+        "name": "Tyrosine-protein kinase ABL1",
+        "identifier": "https://identifiers.org/uniprot:P00519",
+        "isMentionedIn": "http://www.uniprot.org/",
+        "bioCoordinates": {
+          "@type": "PropertyValue",
+          "minValue": 61,
+          "maxValue": 147
+        }
+      }
+    ]
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}

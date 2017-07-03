@@ -1,0 +1,107 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "InterPro - Signature - SH3_1",
+  "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
+  "url": "https://www.ebi.ac.uk/interpro/signature/PF00018",
+  "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
+  "mainEntity": {
+    "@type": "BiologicalEntity",
+    "name": "SH3_1",
+    "identifier": "https://identifiers.org/pfam:PF00018",
+    "biologicalType": ["protein annotation", "domain"],
+    "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/Pfam",
+    "description": "SH3 (Src homology 3) domains are often indicative of a protein involved in signal transduction related to cytoskeletal organisation. First described in the Src cytoplasmic tyrosine kinase P12931. The structure is a partly opened beta barrel.",
+    "citation": {
+      "@type": "ScholarlyArticle",
+      "identifier": "https://identifiers.org/pubmed:12169629",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Kami K."
+        },
+        {
+          "@type": "Person",
+          "name": "Takeya R."
+        },
+        {
+          "@type": "Person",
+          "name": "Sumimoto H."
+        },
+        {
+          "@type": "Person",
+          "name": "Kohda D."
+        }
+      ],
+      "name": "Diverse recognition of non-PxxP peptide ligands by the SH3 domains from p67(phox), Grb2 and Pex13p."
+    },
+    "isBasisFor": {
+      "@type": "BiologicalEntity",
+      "inDataset": "InterPro",
+      "name": "SH3 domain",
+      "identifier": "https://identifiers.org/interpro:IPR001452",
+      "biologicalType": ["protein annotation", "domain"]
+    },
+    "distribution": [
+      {
+        "type": "ImageObject",
+        "url": "http://pfam.xfam.org/family/PF00018/logo_image",
+        "fileFormat": "image/png",
+        "description": "HMM logo"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/seed/format?format=fasta",
+        "fileFormat": "chemical/x-fasta",
+        "description": "FASTA seed alignment"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/full/format?format=fasta",
+        "fileFormat": "chemical/x-fasta",
+        "description": "FASTA full alignment"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/seed/format?format=stockholm",
+        "fileFormat": "text/x-stockholm-alignment",
+        "description": "STOCKHOLM seed alignment"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/full/format?format=stockholm",
+        "fileFormat": "text/x-stockholm-alignment",
+        "description": "STOCKHOLM full alignment"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/seed/format?format=pfam",
+        "fileFormat": "text/x-selex",
+        "description": "SELEX seed alignment"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/full/format?format=pfam",
+        "fileFormat": "text/x-selex",
+        "description": "SELEX full alignment"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/seed/format?format=msf",
+        "fileFormat": "text/x-msf",
+        "description": "MSF seed alignment"
+      },
+      {
+        "type": "DataDownload",
+        "url": "http://pfam.xfam.org/family/PF00018/alignment/full/format?format=msf",
+        "fileFormat": "text/x-msf",
+        "description": "MSF full alignment"
+      }
+    ]
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "InterPro - Signature - SH3_1 - Proteins matched",
+  "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
+  "url": "https://www.ebi.ac.uk/interpro/signature/PF00018/proteins-matched",
+  "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
+  "mainEntity": {
+    "@type": "BiologicalEntity",
+    "name": "SH3_1",
+    "identifier": "https://identifiers.org/pfam:PF00018",
+    "biologicalType": ["protein annotation", "domain"],
+    "isMentionedIn": "https://www.ebi.ac.uk/interpro/member-database/Pfam",
+    "isPartOf": {
+      "@type": "BiologicalEntity",
+      "biologicalType": "protein",
+      "name": "ABL1_HUMAN",
+      "identifier": "https://identifiers.org/uniprot:P00519",
+      "isMentionedIn": "http://www.uniprot.org/",
+      "bioCoordinates": {
+        "@type": "PropertyValue",
+        "minValue": 67,
+        "maxValue": 113
+      }
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}

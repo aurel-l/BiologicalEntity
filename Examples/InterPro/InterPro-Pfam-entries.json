@@ -1,0 +1,69 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "Pfam entries",
+  "description": "The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and hidden Markov models (HMMs)",
+  "url": "https://www.ebi.ac.uk/interpro/member-database/Pfam",
+  "sameAs": "http://pfam.xfam.org/",
+  "keywords": ["protein annotation", "family", "domain"],
+  "provider": "https://www.ebi.ac.uk",
+  "license": "GPL",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "identifier": "https://identifiers.org/pubmed:26673716",
+    "name": "The Pfam protein families database: towards a more sustainable future."
+  },
+  "mainEntity": {
+    "@type": ["DataRepository"],
+    "name": "Pfam",
+    "dataset": {
+      "@type": "Dataset",
+      "name": "Pfam 31.0",
+      "releaseDate": "2017-03-08",
+      "isMentionedIn": "https://xfam.wordpress.com/2017/03/08/pfam-31-0-is-released/",
+      "measurementTechnique": ["multiple sequence alignement", "hidden Markov model"],
+      "hasPart": [
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00001",
+          "name": "7 transmembrane receptor (rhodopsin family)",
+          "identifier": "https://identifiers.org/pfam:PF00001",
+          "biologicalType": "family"
+        },
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00002",
+          "name": "7 transmembrane receptor (Secretin family)",
+          "identifier": "https://identifiers.org/pfam:PF00002",
+          "biologicalType": "family"
+        },
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00003",
+          "name": "7 transmembrane sweet-taste receptor of 3 GCPR",
+          "identifier": "https://identifiers.org/pfam:PF00003",
+          "biologicalType": "family"
+        },
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "http://www.ebi.ac.uk/interpro/signature/PF00018",
+          "name": "SH3 domain",
+          "identifier": "https://identifiers.org/pfam:PF00018",
+          "biologicalType": "family"
+        },
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "http://www.ebi.ac.uk/interpro/signature/PF14604",
+          "name": "Variant SH3 domain",
+          "identifier": "https://identifiers.org/pfam:PF14604",
+          "biologicalType": "family"
+        }
+      ]
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}

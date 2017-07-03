@@ -1,0 +1,23 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "InterPro - SH3 domain",
+  "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
+  "url": "https://www.ebi.ac.uk/interpro/protein/P00519",
+  "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
+  "mainEntity": {
+    "@type": ["BiologicalEntity", "DatasetEntry"],
+    "biologicalType": "protein",
+    "name": "Tyrosine-protein kinase ABL1",
+    "alternateName": "ABL1_HUMAN",
+    "identifier": "https://identifiers.org/uniprot:P00519",
+    "sameAs": "http://purl.uniprot.org/uniprot/P00519",
+    "taxon": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+    "inMentionedIn": "http://www.uniprot.org/"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}

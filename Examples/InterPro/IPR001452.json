@@ -1,0 +1,287 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "InterPro - SH3 domain",
+  "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
+  "url": "http://www.ebi.ac.uk/interpro/entry/IPR001452",
+  "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
+  "mainEntity": {
+    "@context": "http://schema.org",
+    "@type": "BiologicalEntity",
+    "name": "SH3 domain",
+    "identifier": "https://identifiers.org/interpro:IPR001452",
+    "biologicalType": ["protein annotation", "domain"],
+    "isMentionedIn": "https://www.ebi.ac.uk/interpro/search",
+    "alternateName": "SH3_domain",
+    "description": "SH3 (src Homology-3) domains are small protein modules containing approximately 50 amino acid residues [PMID: 15335710, PMID: 11256992]. They are found in a great variety of intracellular or membrane-associated proteins [PMID: 1639195, PMID: 14731533, PMID: 7531822] for example, in a variety of proteins with enzymatic activity, in adaptor proteins, such as fodrin and yeast actin binding protein ABP-1. The SH3 domain has a characteristic fold which consists of five or six beta-strands arranged as two tightly packed anti-parallel beta sheets. The linker regions may contain short helices. The surface of the SH3-domain bears a flat, hydrophobic ligand-binding pocket which consists of three shallow grooves defined by conservative aromatic residues in which the ligand adopts an extended left-handed helical arrangement. The ligand binds with low affinity but this may be enhanced by multiple interactions. The region bound by the SH3 domain is in all cases proline-rich and contains PXXP as a core-conserved binding motif. The function of the SH3 domain is not well understood but they may mediate many diverse processes such as increasing local concentration of proteins, altering their subcellular location and mediating the assembly of large multiprotein complexes [PMID: 7953536]. The crystal structure of the SH3 domain of the cytoskeletal protein spectrin, and the solution structures of SH3 domains of phospholipase C (PLC-y) and phosphatidylinositol 3-kinase p85 alpha-subunit, have been determined [PMID: 1279434, PMID: 7684655, PMID: 7681365]. In spite of relatively limited sequence similarity, their overall structures are similar. The domains belong to the alpha+beta structural class, with 5 to 8 beta-strands forming 2 tightly-packed, anti-parallel beta-sheets arranged in a barrel-like structure, and intervening loops sometimes forming helices. Conserved aliphatic and aromatic residues form a hydrophobic core (A11, L23, A29, V34, W42, L52 and V59 in PLC-y [PMID: 7681365]) and a hydrophobic pocket on the molecular surface (L12, F13, W53 and P55 in PLC-y). The conserved core is believed to stabilise the fold, while the pocket is thought to serve as a binding site for target proteins. Conserved carboxylic amino acids located in the loops, on the periphery of the pocket (D14 and E22), may be involved in protein-protein interactions via proline-rich regions. The N- and C-termini are packed in close proximity, indicating that they are independent structural modules."
+    "hasPart": [
+      {
+        "@type": "BiologicalEntity",
+        "@id": "https://www.ebi.ac.uk/interpro/entry/IPR029294",
+        "name": "Helically-extended SH3 domain",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/search",
+        "identifier": "https://identifiers.org/interpro:IPR029294",
+        "biologicalType": "domain"
+      },
+      {
+        "@type": "BiologicalEntity",
+        "@id": "https://www.ebi.ac.uk/interpro/entry/IPR030642",
+        "name": "Nephrocystin-1, SH3 domain",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/search",
+        "identifier": "https://identifiers.org/interpro:IPR030642",
+        "biologicalType": "domain"
+      },
+      {
+        "@type": "BiologicalEntity",
+        "@id": "https://www.ebi.ac.uk/interpro/entry/IPR030777",
+        "name": "PSTPIP1, SH3 domain",
+        "isMentionedIn": "https://www.ebi.ac.uk/interpro/search",
+        "identifier": "https://identifiers.org/interpro:IPR030777",
+        "biologicalType": "domain"
+      }
+    ],
+    "citation": [
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:1279434",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Musacchio A."
+          },
+          {
+            "@type": "Person",
+            "name": "Noble M."
+          },
+          {
+            "@type": "Person",
+            "name": "Pauptit R."
+          },
+          {
+            "@type": "Person",
+            "name": "Wierenga R."
+          },
+          {
+            "@type": "Person",
+            "name": "Saraste M."
+          }
+        ],
+        "name": "Crystal structure of a Src-homology 3 (SH3) domain."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:11256992",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Mayer B.J."
+          }
+        ],
+        "name": "SH3 domains: complexity in moderation."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:1639195",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Musacchio A."
+          },
+          {
+            "@type": "Person",
+            "name": "Gibson T."
+          },
+          {
+            "@type": "Person",
+            "name": "Lehto V.P."
+          },
+          {
+            "@type": "Person",
+            "name": "Saraste M."
+          }
+        ],
+        "name": "SH3--an abundant protein domain in search of a function."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:7531822",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Pawson T."
+          }
+        ],
+        "name": "Protein modules and signalling networks."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:7681365",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Kohda D."
+          },
+          {
+            "@type": "Person",
+            "name": "Hatanaka H."
+          },
+          {
+            "@type": "Person",
+            "name": "Odaka M."
+          },
+          {
+            "@type": "Person",
+            "name": "Mandiyan V."
+          },
+          {
+            "@type": "Person",
+            "name": "Ullrich A."
+          },
+          {
+            "@type": "Person",
+            "name": "Schlessinger J."
+          },
+          {
+            "@type": "Person",
+            "name": "Inagaki F."
+          }
+        ],
+        "name": "Solution structure of the SH3 domain of phospholipase C-gamma."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:7953536",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Morton C.J."
+          },
+          {
+            "@type": "Person",
+            "name": "Campbell I.D."
+          }
+        ],
+        "name": "SH3 domains. Molecular 'Velcro'."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:7684655",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Booker G.W."
+          },
+          {
+            "@type": "Person",
+            "name": "Gout I."
+          },
+          {
+            "@type": "Person",
+            "name": "Downing A.K."
+          },
+          {
+            "@type": "Person",
+            "name": "Driscoll P.C."
+          },
+          {
+            "@type": "Person",
+            "name": "Boyd J."
+          },
+          {
+            "@type": "Person",
+            "name": "Waterfield M.D."
+          },
+          {
+            "@type": "Person",
+            "name": "Campbell I.D."
+          }
+        ],
+        "name": "Solution structure and ligand-binding site of the SH3 domain of the p85 alpha subunit of phosphatidylinositol 3-kinase."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:14731533",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Mayer B.J."
+          },
+          {
+            "@type": "Person",
+            "name": "Baltimore D."
+          }
+        ],
+        "name": "Signalling through SH2 and SH3 domains."
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "identifier": "https://identifiers.org/pubmed:15335710",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Pawson T."
+          },
+          {
+            "@type": "Person",
+            "name": "Schlessingert J."
+          }
+        ],
+        "name": "SH2 and SH3 domains."
+      }
+    ],
+    "isBasedOn": [
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/Pfam",
+        "name": "SH3_9",
+        "identifier": "https://identifiers.org/pfam:PF14604",
+        "biologicalType": ["protein annotation", "domain"]
+      },
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/SUPERFAMILY",
+        "name": "SH3-domain superfamily",
+        "identifier": "https://identifiers.org/superfamily:SSF50044",
+        "biologicalType": ["protein annotation", "domain"]
+      },
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/PROSITE-profiles",
+        "name": "SH3",
+        "identifier": "https://identifiers.org/prosite:PS50002",
+        "biologicalType": ["protein annotation", "domain"]
+      },
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/Pfam",
+        "name": "SH3_1",
+        "identifier": "https://identifiers.org/pfam:PF00018",
+        "biologicalType": ["protein annotation", "domain"]
+      },
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/SMART",
+        "name": "SH3",
+        "identifier": "https://identifiers.org/smart:SM00326",
+        "biologicalType": ["protein annotation", "domain"]
+      },
+      {
+        "@type": ["BiologicalEntity", "DatasetEntry"],
+        "isMentionedIn": "http://www.ebi.ac.uk/interpro/member-database/PRINTS",
+        "name": "SH3DOMAIN",
+        "identifier": "https://identifiers.org/prints:PR00452",
+        "biologicalType": ["protein annotation", "domain"]
+      }
+    ],
+    "crossReference": {
+      "@type": "BiologicalEntity",
+      "identifier": "https://identifiers.org/GO:0005515",
+      "name": "protein binding"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}

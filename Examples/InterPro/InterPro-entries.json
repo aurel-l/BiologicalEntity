@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "InterPro entries",
+  "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool.",
+  "url": "http://www.ebi.ac.uk/interpro/search/",
+  "logo": "https://www.ebi.ac.uk/interpro/resources/images/logo_interpro_purple_01.png",
+  "mainEntity": {
+    "@type": ["DataRepository"],
+    "name": "InterPro",
+    "temporalCoverage": "R/2017-05-11/P1M",
+    "dataset": {
+      "@type": "Dataset",
+      "name": "InterPro 63.0",
+      "releaseDate": "2017-05-11",
+      "hasPart": [
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "https://www.ebi.ac.uk/interpro/entry/IPR002906",
+          "name": "Ribosomal protein S27a",
+          "identifier": "https://identifiers.org/interpro:IPR002906",
+          "biologicalType": "domain"
+        },
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "https://www.ebi.ac.uk/interpro/entry/IPR006849",
+          "name": "Elongator complex subunit Iki3",
+          "identifier": "https://identifiers.org/interpro:IPR006849",
+          "biologicalType": "family"
+        },
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "https://www.ebi.ac.uk/interpro/entry/IPR006850",
+          "name": "Domain of unknown function DUF562",
+          "identifier": "https://identifiers.org/interpro:IPR006850",
+          "biologicalType": "domain"
+        },
+        {
+          "@type": ["BiologicalEntity", "DatasetEntry"],
+          "@id": "https://www.ebi.ac.uk/interpro/entry/IPR006851",
+          "name": "Protein of unknown function DUF613",
+          "identifier": "https://identifiers.org/interpro:IPR006851",
+          "biologicalType": "family"
+        }
+      ]
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.ebi.ac.uk/interpro/search?q={keyword}",
+    "query-input": "required name=keyword"
+  }
+}
